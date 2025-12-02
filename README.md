@@ -2,21 +2,32 @@
 # You MUST Answer the following questions:
 **Git**:
 1. Paste exactly the output of `git remote -v` (10 words max)
+> origin  git@github.com:LarisonCS11/FA2025e2-f-mastery-import.git (fetch)
+> origin  git@github.com:LarisonCS11/FA2025e2-f-mastery-import.git (push)
 
 **Makefile**:
 1. What target compiles mini_ci with sufficient debug flags? (1 word max)
+> potbelly
 2. Which target verifies your output is identical to the given reference? (1 word max)
+> cheba
 
 **Linux CLI**:
 1. At least one testcase in the testcases file fails, paste a full, single  command that runs a failing testcase: (5 words max)
+> bin/sb -i testcases/catdel.trace
 
 **GDB**:
 1. When running a failing testcase, what line does the program segfault at in its given state? Paste the line.(20 characters max)
+> strcpy(res, sb->content);
 2. What is the call stack when the program segfaults in its given state? Paste the call stack output by GDB. (20 words max)
+> #0  __strcpy_avx2 () at ../sysdeps/x86_64/multiarch/strcpy-avx2.S:578
+  #1  0x000055555555617b in sb_toString (sb=0x7ffff7fc3fe8) at stringbuilder.c:67
+  #2  0x000055555555543b in main ()
 
 **C**:
 1. What logic error caused the program to segfault? (10 words max) Note, "dereferencing null" is not sufficient.
+> not allocating enough space for char* res
 2. Directly following this bug, how did you resolve the error? (10 words max)
+> add 1 to account for '\0'
 
 ## [IMPORTANT] After you SSH into a lab machine: Note that
 - **ALL git commands must be in the command line.**

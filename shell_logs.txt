@@ -1,0 +1,500 @@
+   39  python3 driver.py -w1
+   40  make clean
+   41  make all
+   42  python3 driver.py -w1
+   43  make clean
+   44  git fetch origin
+   45  make clean
+   46  make all
+   47  python3 driver.py -w1
+   48  python3 driver.py
+   49  make clean
+   50  make all
+   51  python3 driver.py
+   52  make clean
+   53  make clean
+   54  make all
+   55  python3 driver.py
+   56  python3 driver.py -w1
+   57  make clean
+   58  make all
+   59  python3 driver.py -w1
+   60  python3 driver.py
+   61  make clean
+   62  make all
+   63  python3 driver.py
+   64  make clean
+   65  make all
+   66  python3 driver.py -w1
+   67  python3 driver.py
+   68  python3 driver.py
+   69  make clean
+   70  make all
+   71  python3 driver.py
+   72  make clean
+   73  make all
+   74  make clean
+   75  make all
+   76  python3 driver.py -w1
+   77  python3 driver.py -w1
+   78  make clean
+   79  make all
+   80  python3 driver.py -w1
+   81  python3 driver.py
+   82  make clean
+   83  make all
+   84  python3 driver.py -w1
+   85  python3 driver.py
+   86  q
+   87  exit
+   88  git clone git@github.com:CS429-FA2025/shared-repo-version-f-LarisonCS11.git
+   89  git clone https://github.com/CS429-FA2025/shared-repo-version-f-LarisonCS11.git
+   90  pwd
+   91  ls
+   92  cd shared-repo-version-f-LarisonCS11
+   93  pwd
+   94  ls
+   95  echo "set history save on" > ~/.shell_logs.txt
+   96  ls
+   97  cd..
+   98  cd
+   99  ls
+  100  ls -a
+  101  pwd
+  102  mv /u/llamet10/.shell_logs.txt /u/llamet10/shared-repo-version-f-LarisonCS11
+  103  pwd
+  104  cd shared-repo-version-f-LarisonCS11
+  105  ls
+  106  ls -a
+  107  git remote -v
+  108  make
+  109  sammy
+  110  make sammy
+  111  make snarfs
+  112  make potbelly
+  113  make mikes
+  114  make cheba
+  115  cheba
+  116  ./testcases/edges.trace
+  117  ./bin -f /testcases/edges.trace
+  118  ./testcases/edges.trace -f
+  119  ./shared-repo-version-f-LarisonCS11 -f testcases/edges.trace
+  120  ls
+  121  make snarfs
+  122  make subway
+  123  ./bin -f /testcases/edges.trace
+  124  git add .
+  125  git commit -m "final commit"
+  126  git push
+  127  cd ..
+  128  ls
+  129  rm -rf shared-repo-version-f-LarisonCS11/
+  130  ls
+  131  mv se-lab-larison se-lab-larisonSpr25
+  132  ls
+  133  make clean
+  134  make
+  135  ./bin/test-hw
+  136  make clean
+  137  make
+  138  ./bin/test -hw
+  139  ./bin/test-hw
+  140  make clean
+  141  make
+  142  ./bin/test-hw
+  143  ./bin/test-hw -v
+  144  ./bin/test-hw -v1
+  145  ./bin/test-hw -v1o
+  146  make clean
+  147  make week1
+  148  ./bin/test-hw -v 2
+  149  make clean
+  150  make week1
+  151  ./bin/test-hw
+  152  ./bin/test-hw -v 2
+  153  make clean
+  154  make week1
+  155  ./bin/test-hw -v 2
+  156  ./bin/test-hw
+  157  make clean
+  158  make week1
+  159  ./bin/test-hw
+  160  make clean
+  161  make clean
+  162  make week2
+  163  make clean
+  164  make week2
+  165  ./bin/test-se -w 2
+  166  make clean
+  167  make week1
+  168  ./bin/test-hw
+  169  make clean
+  170  make week1
+  171  ./bin/test-hw
+  172  ./bin/test-hw
+  173  make clean
+  174  make week2
+  175  ./bin/test-se -w 2
+  176  make clean
+  177  make week2
+  178  ./bin/test-se -w 2
+  179  make clean
+  180  make week2
+  181  ./bin/test-se -w 2
+  182  ./bin/se -i testcases/basics/pipeminus/01_addi.o -v 1
+  183  ./bin/se -i testcases/basics/pipeminus/add -v 1
+  184  ./bin -i testcases/basics/pipeminus/add -v 1
+  185  ./bin/se -i testcases/basics/add -v 1
+  186  make clean
+  187  make week2
+  188  ./bin/test-se -w 2
+  189  make clean
+  190  make week2
+  191  ./bin/test-se -w 2
+  192  make clean
+  193  ./bin/se -i testcases/basics/add -v 1 2>&1 | grep "\[v0\]"
+  194  make week2
+  195  ./bin/se -i testcases/basics/add -v 1 2>&1 | grep "\[v0\]"
+  196  make clean
+  197  make week2
+  198  ./bin/se -i testcases/basics/add -v 1 2>&1 | grep "\[v0\]"
+  199  ./bin/se -i testcases/alu/pipeminus/adds -v 1 2>&1 | grep "\[v0\]" | head -30
+  200  make clean
+  201  make week2
+  202  ./bin/se -i testcases/alu/pipeminus/adds -v 1 2>&1 | grep "\[v0\]" | head -30
+  203  ./bin/test-se -w 2
+  204  make clean
+  205  make week2
+  206  ./bin/test-se -w 2
+  207  make clean
+  208  make week2
+  209  make clean
+  210  make week2
+  211  ./bin/test-se -w 2
+  212  make clean
+  213  make week2
+  214  ./bin/test-se -w 2
+  215  make clean
+  216  make week2
+  217  ./bin/test-se -w 2
+  218  make clean
+  219  make week2
+  220  ./bin/test-se -w 2
+  221  make clean
+  222  make week2
+  223  ./bin/test-se -w 2
+  224  make clean
+  225  make week2
+  226  ./bin/test-se -w 2
+  227  make clean
+  228  make week2
+  229  ./bin/test-se -w 2
+  230  make clean
+  231  make week2
+  232  ./bin/test-se -w 2
+  233  make clean
+  234  make week2
+  235  ./bin/test-se -w 2
+  236  ./bin/se -i testcases/basics/movk -v 1 | head -100
+  237  make clean
+  238  make week2
+  239  ./bin/test-se -w 2
+  240  make clean
+  241  make week2
+  242  ./bin/se -i testcases/basics/movk.s -v | tail -30
+  243  ./bin/se -i testcases/basics/movk.s -v 1 | tail -30
+  244  ./bin/se -i testcases/basics/movk.s -v 1 
+  245  ./bin/se -i testcases/basics/movk.s -v 1
+  246  ./bin/se -i testcases/basics/movk.s
+  247  ./bin/se -i tetcases/alu/pipeminus/adds -v 1
+  248  ./bin/se -i testcases/alu/pipeminus/adds -v 1
+  249  make clean
+  250  make week2
+  251  ./bin/test-se -w 2
+  252  ./bin/se -i testcases/basics/movk -v 1 2>&1 | grep -A 2 "MOVK"
+  253  make clean
+  254  make week2
+  255  ./bin/test-se -w 2
+  256  make clean
+  257  make week2
+  258  ./bin/se -i testcases/alu/pipeminus/mvn
+  259  ./bin/se -i testcases/alu/pipeminus/mvn -v 1
+  260  ./bin/se -i testcases/alu/pipeminus/mvn -v 2
+  261  make clean
+  262  make week2
+  263  ./bin/test-se -w 2
+  264  ./bin/se -i testcases/alu/pipeminus/mvn -v 2
+  265  make clean
+  266  make week1
+  267  ./bin/test-hw
+  268  make clean
+  269  make week2
+  270  ./bin/test-se -w 2
+  271  make clean
+  272  make week2
+  273  ./bin/test-se -w 2
+  274  make clean
+  275  make clean
+  276  make clean
+  277  make week2
+  278  ./bin/se-ref-wk2 -i
+  279  ./bin/se-ref-wk2
+  280  ./bin/se-ref-wk2 -w 2
+  281  ./bin/se-ref-wk2 -v
+  282  ./bin/se-ref-wk2 -v 1
+  283  ./bin/se-ref-wk2 -i testbench/test-se.c -v 1
+  284  ./bin/se-ref-wk2 -i src/testbench/test-se.c
+  285  make clean
+  286  make week2
+  287  ./bin/test-se -w 2
+  288  make clean
+  289  make verify
+  290  veriy
+  291  make clean
+  292  make week2
+  293  ./bin/test-se -w 2
+  294  ./bin/ref-wk2 -i testcases/basics/movk -v 1
+  295  ./bin/se-ref-wk2 -i testcases/basics/movk -v 1
+  296  ./bin/se -i testcases/basics/movk -v 1
+  297  ./bin/test-se -i testcases/basics/movk -v 1
+  298  make clean
+  299  make week2
+  300  ./bin/se -i testcases/basics/movk -v 1
+  301  make clean
+  302  make week2
+  303  ./bin/se -i testcases/basics/movk -v 1
+  304  make clean
+  305  make week2
+  306  ./bin/test-se -w 2
+  307  make clean
+  308  make week2
+  309  ./bin/test-se -w 2
+  310  ./bin/test-se -w 2 2>&1 | grep "FAILED" | head -20
+  311  ./bin/test-se -w 2 2>&1 | grep "FAILED" | head -20
+  312  ./bin/test-se -w 2 2>&1 | grep "FAILED"
+  313  ./bin/test-se -w 2 2>&1
+  314  ./bin/se -i testcases/basics/movk -v 1 2>&1 | grep -E "cycle|MOVK|format:|src1:|val_a:|val_imm:|val_hw:" | head -60
+  315  ./bin/se-ref-wk2 -i testcases/basics/movk.o -v 1 2>&1 | grep -E "cycle|MOVK|format:|src1:|val_a:|val_imm:|val_hw:" | head -60
+  316  ./bin/se-ref-wk2 -i testcases/basics/movk -v 1 2>&1 | grep -E "cycle|MOVK|format:|src1:|val_a:|val_imm:|val_hw:" | head -60
+  317  ./bin/se -i testcases/basics/movk -v 1 2>&1 | tail -30
+  318  make clean
+  319  make week2
+  320  ./bin/test-se -w 2
+  321  make clean
+  322  make week2
+  323  ./bin/test-se -w 2
+  324  make clean
+  325  ./bin/se-ref-wk2 -i testcases/basics/movk -v 1
+  326  ./bin/se -i testcases/basics/movk -v 1
+  327  ./bin/se-ref-wk2 -i testcases/basics/movk -v 1 2>&1 | grep -A 30 "^Cycle 5:"
+  328  git clone git@github.com:CS429-FA2025/shared-repo-version-h-LarisonCS11.git
+  329  git clone https://github.com/CS429-FA2025/shared-repo-version-h-LarisonCS11.git
+  330  git remote -v
+  331  make
+  332  make clean
+  333  make all
+  334  make test
+  335  ./bin testcases/empties
+  336  /bin testcases/empities
+  337  touch shell_logs.txt
+  338  history
+  339  history > shell_logs.txt
+  340  make clean
+  341  git add .
+  342  git commit
+  343  git push
+  344  cd ..
+  345  rm -rf shared-repo-version-h-LarisonCS11/
+  346  make clean
+  347  make week1
+  348  ./bin/test-hw
+  349  ls
+  350  ls -l
+  351  pwd
+  352  cd ./se-lab-solo-duo
+  353  pwd
+  354  code .
+  355  exit
+  356  ls
+  357  ls -la
+  358  cat .gdbinit
+  359  cat Master-version-b-import
+  360  exit
+  361  ls -l
+  362  cat .gdbinit
+  363  echo "set history save on (version h)" >> .gdbinit
+  364  cat .gdbinit
+  365  git clone git@github.com:LarisonCS11/mastery-version-h-master-import.git
+  366  git clone git@github.com:LarisonCS11/mastery-version-h-master-import.git
+  367  git clone git@github.com:LarisonCS11/mastery-version-h-master-import.git
+  368  git clone https://github.com/LarisonCS11/mastery-version-h-master-import.git
+  369  ls -l
+  370  ls ~/.ssh
+  371  ssh-keygen -t ed25519
+  372  ssh-keygen -t ed25519
+  373  cat /u/llamet10/.ssh/id_ed25519.pub
+  374  rm mastery-version-h-master-import
+  375  rmdir mastery-version-h-master-import
+  376  rm -r mastery-version-h-master-import
+  377  exit
+  378  cd ..
+  379  rmdir mastery-version-h-master-import/
+  380  cd mastery-version-h-master-import/
+  381  ls
+  382  ls -la
+  383  ls -a
+  384  rm .git
+  385  rmdir .git
+  386  rm -r .git
+  387  ls
+  388  ls -a
+  389  cd .git
+  390  ls-a
+  391  ls
+  392  ls -a
+  393  rm objects
+  394  cd objects
+  395  ls
+  396  cd pack
+  397  ls
+  398  cd ..
+  399  rm -r pack
+  400  rmdir pack
+  401  pack ls -a
+  402  cd pack
+  403  ls -a
+  404  cd ..
+  405  rm -rf pack
+  406  ls -a
+  407  cd..
+  408  cd ..
+  409  rm -rf objects
+  410  cd ..
+  411  cd ..
+  412  rm -rf mastery-version-h-master-import/
+  413  ls
+  414  exit
+  415  ls -l
+  416  git clone git@github.com:LarisonCS11/mastery-version-h-master-import.git
+  417  cd mastery-version-h-master-import/
+  418  ls
+  419  bash
+  420  exit
+  421  make
+  422  check
+  423  ./bin
+  424  ./bin/a.out
+  425  ./a.out
+  426  /bin/a.out
+  427  bin/a.out
+  428  git pull
+  429  git add .
+  430  git commit -m "testcases folder"
+  431  git push
+  432  make clean
+  433  make
+  434  bin/a.out -t short1.rep
+  435  bin/a.out -t short2.rep
+  436  bin/a.out -t short3.rep
+  437  bin/a.out -t testcases/short1.rep
+  438  bin/a.out -t testcases/short2.rep
+  439  make check
+  440  ref.out -t testcases/short2.rep
+  441  ./ref.out
+  442  ls -l ref.out
+  443  chmod +x ref.out
+  444  ls -l ref.out
+  445  ./ref.out
+  446  ./ref.out -t
+  447  ref.out -t testcases/short2.rep
+  448  make clean
+  449  make debug
+  450  gdb bin/a.out
+  451  ref.out -t testcases/short1.rep
+  452  bin/a.out -t testcases/short1.rep
+  453  bin/a.out -t testcases/short3.rep
+  454  bin/a.out -t testcases/short4.rep
+  455  bin/a.out -t testcases/short5.rep
+  456  make clean
+  457  make debug
+  458  gdb bin/a.out
+  459  make clean
+  460  make
+  461  bin/a.out -t testcases/short1.rep
+  462  bin/a.out -t testcases/short2.rep
+  463  make clean
+  464  make debug
+  465  gdb bin/a.out
+  466  make clean
+  467  make
+  468  bin/a.out -t testcases/short1.rep
+  469  bin/a.out -t testcases/short2.rep
+  470  ref.out -t testcases/short2.rep
+  471  ref.out -t testcases/short3.rep
+  472  bin/a.out -t testcases/short3.rep
+  473  ref.out -t testcases/short4.rep
+  474  bin/a.out -t testcases/short4.rep
+  475  bin/a.out -t testcases/short5.rep
+  476  ref.out -t testcases/short5.rep
+  477  make check
+  478  make comp
+  479  history
+  480  history > shell_logs.txt
+  481  git status
+  482  touch gdb_logs.txt
+  483  git status
+  484  git add .
+  485  git status
+  486  git commit -m "mastery version h complete"
+  487  git push
+  488  cd ..
+  489  rm -rf mastery-version-h-master-import/
+  490  exit
+  491  ls -la
+  492  cat .gdbinit
+  493  echo "set history save on (version f FA2025e2)" >> .gdbinit
+  494  cat .gdbinit
+  495  git clone git@github.com:LarisonCS11/FA2025e2-f-mastery-import.git
+  496  exit
+  497  cd .. 
+  498  rm -rf FA2025e2-f-mastery-import/
+  499  git clone git@github.com:LarisonCS11/FA2025e2-f-mastery-import.git
+  500  exit
+  501  git status
+  502  ls
+  503  cd FA2025e2-f-mastery-import/
+  504  git status
+  505  git commit -m "bin and testcases folders"
+  506  git add .
+  507  git commit -m "bin and testcases folders"
+  508  git push
+  509  git remote -v
+  510  make
+  511  make subway
+  512  make snarfs
+  513  make sammy
+  514  make subway
+  515  make subway
+  516  make mikes
+  517  bin/sb testcases/catdel.trace
+  518  bin/sb
+  519  bin/sb -i testcases/catdel.trace
+  520  ref_sb -i testcases/catdel.trace 
+  521  ./ref_sb
+  522  ls -la
+  523  chmod +x ref_sb
+  524  ls -la
+  525  ./ref_sb
+  526  ref_sb -i testcases/catdel.trace 
+  527  bin/sb -i testcases/edges.trace 
+  528  bin/sb -i testcases/helloworld.trace 
+  529  bin/sb -i testcases/longs.trace 
+  530  make snarfs
+  531  make potbelly
+  532  gdb bin/sb
+  533  make snarfs
+  534  make subway
+  535  make mikes
+  536  make cheba
+  537  history
+  538  history > shell_logs.txt
